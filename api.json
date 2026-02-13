@@ -1,101 +1,126 @@
 {
-  "category": "CRYPTID",
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/slide-rock-bolter",
-    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
-    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
   },
   "phenomenon": {
     "id": "slide-rock-bolter",
     "name": "Slide-Rock Bolter",
     "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
-    "tags": ["fearsome-critter", "lumberjack-folklore", "colorado", "mountains", "whale-sized"],
-    "status": "folklore",
+    "category": "|_CRYPTID_(FEARSOME_CRITTER)_|",
+    "subcategory": "Unknown",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
     "description": {
-      "summary": "A huge whale-sized fish-like creature that lives on mountain peaks and slides down to devour tourists gathered below, opening its enormous mouth to engulf everything in its path.",
-      "full": "The Slide-Rock Bolter is a fearsome critter from American lumberjack folklore, particularly associated with Colorado's Rocky Mountains. Described as an enormous whale-sized creature with a fish-like body and massive mouth, it was said to live on mountain peaks, waiting for tourists to gather in valleys below. When sufficient prey assembled, the Bolter would release its grip and slide down the mountain at tremendous speed with its mouth wide open, swallowing everything - tourists, horses, wagons - in a single gulp. So large that one Bolter could consume an entire tour group, the creature was documented in William T. Cox's 1910 fearsome critters collection and served as a humorous tall tale to mock tourists visiting Colorado's mountains."
+      "summary": "The Slide-Rock Bolter is a fearsome critter from American lumberjack folklore, particularly associated with Colorado's Rocky Mountains.",
+      "full": "The Slide-Rock Bolter is a fearsome critter from American lumberjack folklore, particularly associated with Colorado's Rocky Mountains. Described as an enormous whale-sized creature with a fish-like body and massive mouth, it was said to live on mountain peaks, waiting for tourists to gather in valleys below. When sufficient prey assembled, the Bolter would release its grip and slide down the mountain at tremendous speed with its mouth wide open, swallowing everything - tourists, horses, wagons - in a single gulp."
     },
     "etymology": {
-      "origin": "American lumberjack/mountain folklore, early 1900s",
-      "meaning": "Named for sliding down rocks and 'bolting' (moving rapidly) down mountainsides",
-      "first_use": "Early 20th century"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "Fearsome Critter",
-      "subtype": "Mountain Tall Tale",
-      "variant": "Colorado Folklore"
+      "category": "|_CRYPTID_(FEARSOME_CRITTER)_|",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {"id": "splintercat", "name": "Splintercat", "relationship": "fellow_fearsome_critter", "description": "Another destructive fearsome critter"}
-    ]
+    "related_phenomena": []
   },
   "characteristics": {
     "physical": {
-      "features": [
-        {"feature": "Size", "description": "Whale-sized, enormous", "frequency": "always"},
-        {"feature": "Mouth", "description": "Huge gaping mouth capable of swallowing entire groups", "frequency": "always"},
-        {"feature": "Body", "description": "Fish-like or whale-like", "frequency": "always"},
-        {"feature": "Tail", "description": "Used to grip mountain peaks", "frequency": "common"}
-      ],
-      "morphology": "Massive fish-whale hybrid creature adapted for mountain living"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {"ability": "Mountain sliding", "description": "Slides down mountains at tremendous speed", "frequency": "always", "evidence_level": "folklore"},
-      {"ability": "Mass consumption", "description": "Swallows entire tour groups in one gulp", "frequency": "always", "evidence_level": "folklore"}
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "when tourists gather",
-      "disposition": "dangerous to tourists",
-      "social_structure": "solitary",
-      "habitat_preference": ["mountain peaks", "Colorado Rockies"],
-      "diet": "Tourists, horses, wagons, everything in path",
-      "patterns": ["Waits on peak", "Slides when prey gathers", "Mouth open during descent", "Swallows everything"]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
     "range": {
-      "description": "Colorado Rocky Mountains, specifically featured in William T. Cox's fearsome critters collection.",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": ["Colorado Rocky Mountains"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
-      "first_recorded": {"date": "Early 1900s", "circa": true, "source": "American folklore"},
-      "peak_activity_periods": [{"period": "1910s-1930s", "description": "Documented in fearsome critter collections"}]
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "American lumberjack and mountain folklore. Created to mock tourists visiting Colorado mountains.",
-      "earliest_accounts": "Early 20th century",
-      "folklore_connections": "Fearsome critters tradition with specific anti-tourist humor"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {"date": "1910", "event": "Documented by William T. Cox", "significance": "Written preservation in fearsome critters collection", "source": "Fearsome Creatures of the Lumberwoods"}
-    ],
-    "modern_era": "Remains a memorable example of Colorado-specific fearsome critter folklore and anti-tourist humor."
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": ["Lumberjack tall tales", "Colorado mountain folklore", "Anti-tourist humor"],
-      "stories": ["Tales of entire tour groups disappearing", "Stories of Bolters waiting on peaks"],
-      "beliefs": "Never meant to be believed; pure humor"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "purpose": {
-      "entertainment": "Mock tourists and entertain locals",
-      "cultural": "Colorado mountain identity",
-      "hazing": "Tourist intimidation"
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-  "sources": [
-    {"id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910"}
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
