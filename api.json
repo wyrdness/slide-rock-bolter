@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/slide-rock-bolter",
     "maintainers": [
       {
@@ -16,111 +16,212 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "slide-rock-bolter",
     "name": "Slide-Rock Bolter",
-    "aliases": [],
-    "category": "|_CRYPTID_(FEARSOME_CRITTER)_|",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Macrostoma saxiperrumptus", "language": "Latin (joke binomial)", "meaning": "Mock scientific name given by William T. Cox (1910)" }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome critter (American lumberjack tall-tale fauna)",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "tall-tale",
+      "colorado",
+      "rocky-mountains",
+      "north-america"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Slide-Rock Bolter is a fearsome critter from American lumberjack folklore, particularly associated with Colorado's Rocky Mountains.",
-      "full": "The Slide-Rock Bolter is a fearsome critter from American lumberjack folklore, particularly associated with Colorado's Rocky Mountains. Described as an enormous whale-sized creature with a fish-like body and massive mouth, it was said to live on mountain peaks, waiting for tourists to gather in valleys below. When sufficient prey assembled, the Bolter would release its grip and slide down the mountain at tremendous speed with its mouth wide open, swallowing everything - tourists, horses, wagons - in a single gulp."
+      "summary": "The Slide-Rock Bolter is a fearsome critter of American lumberjack folklore from Colorado's Rocky Mountains. Documented by Minnesota State Forester William T. Cox in 'Fearsome Creatures of the Lumberwoods' (1910), the creature is described as an enormous fish-like beast that anchors itself by hooked tail to a mountain ridge and slides down on its prey.",
+      "full": "The Slide-Rock Bolter is one of the so-called 'fearsome critters' of North American lumberjack tall-tale tradition, codified for outside readers by William T. Cox, Minnesota State Forester, in his book 'Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasties' (Judd & Detweiler, 1910). Cox locates the creature in the Rocky Mountains of Colorado, on slopes greater than 45°, and gives it the joking Latin name Macrostoma saxiperrumptus. He describes it as an enormous beast with a sculpin-like head, an immense mouth, small eyes, and a tail terminating in fluke-like grab-hooks. The creature anchors to a mountain ridge, watches valleys for tourists or wagons, and at the right moment releases its grip and 'bolts' down the rock-slide on its belly with mouth open, swallowing everything in its path. Cox's tale ends with a forest ranger setting an explosive-stuffed dummy tourist in a Norfolk jacket along the slope of Lizard Head Peak; the resulting Bolter strike is said to have flattened half the buildings of Rico, Colorado. The Slide-Rock Bolter is treated alongside the splintercat and the hidebehind as quintessential lumber-camp humor; it has no claim to zoological reality."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American lumberjack tall-tale tradition; written form codified by William T. Cox (1910).",
+      "meaning": "'Slide-Rock' refers to talus slopes / rock slides in the Rockies; 'Bolter' refers to the creature's habit of 'bolting' down the slope.",
+      "first_use": "1910, in Cox's 'Fearsome Creatures of the Lumberwoods'."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_CRYPTID_(FEARSOME_CRITTER)_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Fearsome critter",
+      "subtype": "Mountain tall-tale predator",
+      "variant": "Colorado Rocky Mountains"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "splintercat", "name": "Splintercat", "relationship": "similar", "description": "Companion fearsome critter from Cox (1910) and Tryon (1939); flying tree-smashing cat" },
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Lumberjack folklore predator that always hides behind objects" },
+      { "id": "axehandle-hound", "name": "Axehandle Hound", "relationship": "similar", "description": "Another classic lumber-camp fearsome critter" },
+      { "id": "fearsome-critters", "name": "Fearsome critters (general)", "relationship": "superset", "description": "Tradition of imaginary lumber-camp fauna documented by Cox and Tryon" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["mottled grey, blending with talus rock"],
+      "features": [
+        { "feature": "Enormous mouth", "description": "Sculpin-like head with a vast mouth used to engulf prey", "frequency": "always" },
+        { "feature": "Hooked / fluked tail", "description": "Tail ends in a divided fluke with large grab-hooks used to anchor to a mountain ridge", "frequency": "always" },
+        { "feature": "Small eyes", "description": "Cox describes the eyes as small relative to the body", "frequency": "always" },
+        { "feature": "Massive size", "description": "Often described as whale-sized", "frequency": "always" }
+      ],
+      "morphology": "Fish/whale-like body with mountain-adapted features; Cox's text frames it as a 'mountain beastie' rather than a true fish."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Mountain-anchoring", "description": "Uses tail-hooks to grip the crest of a ridge and remain motionless for days", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bolting slide attack", "description": "Releases its grip on the ridge and slides down the rock-slope at great speed, swallowing prey", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["High mountain ridges", "Talus slopes greater than 45°", "Colorado Rocky Mountains"],
+      "diet": "Tourists, horses, wagons — anything in the valley below (in Cox's narrative)",
+      "patterns": [
+        "Lies in wait for groups assembling in the valley below",
+        "Strikes only after enough 'prey' has gathered to reward the slide"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Restricted in the lumberjack tradition to the high Rocky Mountains of Colorado, especially on slopes steeper than 45°. Cox specifically associates the creature with the country between Ophir Peaks and Lizard Head Peak in San Miguel and Dolores counties.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Colorado",
+        "Rocky Mountains",
+        "San Juan Mountains",
+        "San Miguel County",
+        "Dolores County"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lizard Head Peak / Ophir Peaks (Cox's tale)",
+        "location": {
+          "description": "San Juan Mountains between Ophir Peaks and Lizard Head Peak",
+          "country": "United States",
+          "region": "Colorado",
+          "coordinates": { "latitude": 37.7900, "longitude": -107.9300 }
+        },
+        "peak_period": "Pre-1910 (Cox's narrative)",
+        "notes": "Setting of Cox's account of the forest ranger's dummy-tourist trap that supposedly flattened Rico."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910",
+        "circa": false,
+        "source": "William T. Cox, 'Fearsome Creatures of the Lumberwoods' (1910)"
+      },
+      "peak_activity_periods": [
+        { "period": "1910", "description": "Cox's published account" },
+        { "period": "1939", "description": "Henry H. Tryon's 'Fearsome Critters' republishes and elaborates on the tradition" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late-19th and early-20th-century American lumber-camp humor in the West. Tall-tale fauna entertained crews and explained inexplicable forest features.",
+      "earliest_accounts": "William T. Cox, 'Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasties', Judd & Detweiler, Washington, D.C., 1910.",
+      "folklore_connections": "Companion to splintercat, hidebehind, axehandle hound, hodag, sidehill gouger, and other classic fearsome critters."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-01-01", "event": "William T. Cox publishes 'Fearsome Creatures of the Lumberwoods', describing the Slide-Rock Bolter and giving it the joking Latin name Macrostoma saxiperrumptus", "significance": "Codifies the creature in print", "source": "Cox, W. T. (1910), 'Fearsome Creatures of the Lumberwoods'" },
+      { "date": "1939-01-01", "event": "Henry H. Tryon publishes 'Fearsome Critters' (Idlewild Press), republishing and reworking Cox's tradition", "significance": "Second major print compilation of fearsome critters", "source": "Tryon, H. H. (1939), 'Fearsome Critters'" }
+    ],
+    "modern_era": "The Slide-Rock Bolter is preserved in folklorist anthologies of fearsome critters, in modern books on American tall tales (e.g., Hall 1939; Brunvand 1996), in Colorado regional heritage publications, and in cryptozoology popularizations. It is universally treated as folklore rather than as an active sighting tradition."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Cox 1910 (literary)", "latest": "Cox 1910 (literary)" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "slide-rock-bolter-evidence-cox-1910",
+        "type": "literary source",
+        "name": "Cox, 'Fearsome Creatures of the Lumberwoods' (1910)",
+        "date": "1910",
+        "description": "Foundational printed description of the Slide-Rock Bolter, including the Lizard Head / Ophir Peaks dummy-tourist anecdote.",
+        "status": "verified",
+        "analysis": "Acknowledged tall-tale literature; the source treats the creature humorously rather than as a zoological claim.",
+        "source": "Cox, W. T. (1910), 'Fearsome Creatures of the Lumberwoods'"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Tall-tale folklore",
+        "description": "The Slide-Rock Bolter is a humorous lumber-camp invention from the era of American tall-tale folklore, not a zoological claim. Its very form (a whale-sized fish-like creature on a Colorado mountainside) is a comic absurdity.",
+        "proponents": ["William T. Cox (in framing)", "Henry H. Tryon", "Standard folklore scholarship"],
+        "evidence_cited": ["No corroborating field reports", "Cox's own framing as 'fearsome creatures of the lumberwoods'"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American lumberjack tall-tale tradition",
+        "Western U.S. mountain-state regional folklore"
+      ],
+      "stories": [
+        "Cox's Lizard Head Peak / Rico dummy-tourist anecdote (1910)"
+      ],
+      "beliefs": "Treated openly as comic folklore; functioned as entertainment for lumber crews and as a humorous explanation for natural rockslide damage."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "William T. Cox, 'Fearsome Creatures of the Lumberwoods' (1910)",
+        "Henry H. Tryon, 'Fearsome Critters' (1939)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Featured in Colorado regional folklore exhibits and cryptid bestiaries"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester", "contribution": "Compiled and published the foundational fearsome-critters bestiary (1910)", "period": "1910" },
+      { "name": "Henry H. Tryon", "affiliation": "Black Rock Forest, New York", "contribution": "Compiled a follow-up bestiary 'Fearsome Critters' (1939)", "period": "1939" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Folklorist interest only — primarily as part of the broader fearsome-critters tradition."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasties", "authors": ["William T. Cox"], "publication": "Judd & Detweiler, Washington, D.C.", "date": "1910" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press, Cornwall, NY", "date": "1939" },
+    { "id": "wikipedia-fearsome-critters", "type": "website", "title": "Fearsome critters", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" }
+  ]
 }

@@ -1,28 +1,15 @@
-# Sources & References
+# Sources & References — Slide-Rock Bolter
+
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
 ## Books
 
-### Fearsome Critters Collections
-- Cox, W.T. (1910). *Fearsome Creatures of the Lumberwoods*. Judd & Detweiler, Washington D.C.
-- Tryon, H.H. (1939). *Fearsome Critters*. Idlewild Press, Cornwall, NY.
+- William T. Cox. (1910). *Fearsome Creatures of the Lumberwoods, with a Few Desert and Mountain Beasties*. Judd & Detweiler, Washington, D.C.
+- Henry H. Tryon. (1939). *Fearsome Critters*. Idlewild Press, Cornwall, NY
 
-### American Folklore
-- Dorson, R.M. (1959). *American Folklore*. University of Chicago Press.
-- Botkin, B.A. (1944). *A Treasury of American Folklore*. Crown Publishers.
+## Websites
 
-### Colorado Folklore
-- Colorado Historical Society collections
-- Rocky Mountain folklore materials
+- *Fearsome critters*. Wikipedia. <https://en.wikipedia.org/wiki/Fearsome_critters>
 
 ---
-
-## Citation Format
-
-```
-Wyrdness Project. (2026). Slide-Rock Bolter. Wyrdness Paranormal Archive.
-https://github.com/wyrdness/slide-rock-bolter
-```
-
----
-
-*Last Updated: 2026-01-14*
+_Auto-generated from `api.json`._
